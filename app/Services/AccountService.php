@@ -4,12 +4,7 @@ namespace App\Services;
 
 class AccountService
 {
-    protected $accounts = [100 => 50, 200 => 80];
-
-    public function __construct()
-    {
-        $this->accounts;
-    }
+    protected $accounts;
 
     public function reset()
     {

@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use app\Services\AccountService;
 
 class AppServiceProvider extends ServiceProvider
 {
